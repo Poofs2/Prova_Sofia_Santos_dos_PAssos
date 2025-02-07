@@ -30,11 +30,11 @@ Observação: Formate a média como número float com duas casas decimais, se de
 def media_vendas(dic, min):
   values = dic.values()
   vendas_m = list( map(lambda x: sum(x)/len(x), values))
-  # vendas_medium = {
-  #   'Produto A': vendas_m[0],
-  #   'Produto B': vendas_m[1],
-  #   'Produto C': vendas_m[2]
-  #   }
+   vendas_medium = {
+     'Produto A': vendas_m[0],
+     'Produto B': vendas_m[1],
+     'Produto C': vendas_m[2]
+     }
   # for x in range(0, len(vendas_m)):
   #   if vendas_medium[???] >= min:
     return vendas_medium
